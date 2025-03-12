@@ -1,0 +1,72 @@
+/* أنماط قسم مواقيت الصلاة */
+.prayer-times-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.prayer-times-section h2 {
+    color: #2c786c;
+    margin-bottom: 20px;
+}
+
+.location-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.location-inputs select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: right;
+}
+
+.location-inputs button {
+    padding: 10px 20px;
+    background-color: #2c786c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.location-inputs button:hover {
+    background-color: #004445;
+}
+
+#prayer-times-container {
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
+
+.prayer-time {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.prayer-time span {
+    font-weight: bold;
+    color: #2c786c;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}

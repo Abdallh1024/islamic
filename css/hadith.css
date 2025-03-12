@@ -1,0 +1,28 @@
+/* أنماط صفحة الأحاديث */
+.hadith-list {
+    background-color: #f9f9f9; /* لون فاتح (أبيض مائل للرمادي) */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل لطيف */
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: right;
+    border: 1px solid #e0e0e0; /* حدود فاتحة */
+}
+
+.hadith-list h3 {
+    color: #2c786c; /* لون أخضر داكن للعنوان */
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hadith-list p {
+    color: #333; /* لون داكن للنص */
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.hadith-list:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}

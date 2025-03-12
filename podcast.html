@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بودكاست</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/podcast.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+</head>
+
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <div class="navbar">
+            <h1>بودكاست</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="quran.html">القرآن الكريم</a></li>
+                    <li><a href="hadith.html">الأحاديث النبوية</a></li>
+                    <li><a href="azkar.html">الاذكار</a></li>
+                    <li><a href="tasbeeh.html">تسبيح</a></li>
+                    <li class="dropdown">
+                        <a href="#no" id="lessons-link">تعليمي</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lessons.html">دروس</a></li>
+                            <li><a href="podcast.html">بودكاست</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="prayer-times.html">مواقيت الصلاه</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="menu-icon" id="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+      <!-- مربع البحث -->
+     <section class="search-section" id="lesson-1">
+        <input type="text" id="search-input" placeholder="ابحث عن درس...">
+            <button id="search-button">بحث</button>
+        </section>
+    <div id="no-results-message" style="display: none; color: red; margin-top: 10px;">
+                         لا يوجد نتائج
+        </div>
+        <!-- الدروس المضافة -->
+        <section class="page-content">
+            <h2>كيف تنجح العلاقات مع ياسر الحزيمي | بودكاست فنجان</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pJ0auP7dbcY?si=bgzbe9u9ktAeXXx9"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-2">
+            <h2>الابتلاء - كيف ممكن يكون ربنا بحبك و يبتليك ؟ بودكاست لعله خير</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/xUe7nC0cunY?si=PmViKguU9HPnCg4E"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-3">
+            <h2>إيه المشكلة في ذنوب الخلوات. ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yqOJ8gDpgww?si=0VcynBacDDSW_EIr"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-4">
+            <h2>إية المشكلة في الأغاني و الموسيقي ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/G7PyaAorVHE?si=uK1hZ4kKd5TPOD6d"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-5">
+            <h2>إيه المشكلة في ترك القران ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1Koy-oS76dw?si=eflRkesG7rO4bjPu"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-6">
+            <h2>دين و طين - أين الله ؟ 🤔</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/5qzKaozM8ks?si=4LK542df2sjhSEX_"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-7">
+            <h2>ليش مرحلة العشرينات أخطر مرحلة؟ | د.عمر السعدان</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VYHsZ3CoArc?si=sdpM8fbSQzgOPZjo"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-8">
+            <h2>من أعظم العبادات بر الوالدين.. فكيف اكون بار بوالدي؟!</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EvazsKVeTKI?si=YGPpeABBOJoaPTn9"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-9">
+            <h2>إيه المشكلة في التبرج ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UNpLnJmBHkg?si=IXKW8cX6i1iwz0i8"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-10">
+            <h2>فاهم 44 | المهاجر إلى الله - إبراهيم عليه السلام نموذجا | مع د. أمين الأنصاري</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zaA_bsanOWw?si=XSwGWSXuRPLOnGbh"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-11">
+            <h2>رحلة الصلاة وروحها | بودكاست رفوف (26) أحمد الرئيسي</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fOOv4haSBao?si=JaF18_6xpiSwT15Z"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-12">
+            <h2>الإباحية والاستمناء والعادة السرية، كيف تحرر نفسك من إدمانهم | بودكاست دروس مع د.محمد عبدالجواد</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9cRYvVl_3sc?si=6itpShHyd7ZzGkNL"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-13">
+            <h2>إيه المشكلة في الذنوب الصغيرة ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QcuxWwtl_hs?si=WuSSauVW4zqbiUFu"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-14">
+            <h2>بودكاست شقشقة | كيف أبتعد عن الأغاني؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1ugJVjNzpcU?si=4zOjAQcJbiqMkE4V"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-15">
+            <h2>إيه المشكلة في التنمر؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9WCUKI4aKUc?si=jpxNP-Mw1fqBwKC2"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-16">
+            <h2>إيه المشكلة في الشتيمة ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CIgg-qQ2Y1U?si=2ad_e_8YDtvWv6i_"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-17">
+            <h2>إيه المشكلة في ال حب و ال date و الارتباط ؟</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AjUo-SJ5TSA?si=HnkFfuavgeHU37xv"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-18">
+            <h2>العودة للذنب بعد التوبة | الشيخ د.عثمان محمد الخميس</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ALnKOHqE?si=jzjfqunMKun4Clel"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content"id="lesson-19">
+            <h2>كيف تعيش حياة طيبة؟ | فهد واصل المطيري</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AcqydvbLYJA?si=4BGfmAYxGO7uvZ5S"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-20">
+            <h2>كيف تواجه أزمات الحياة بالصلاة؟ | بودكاست روايتهم 013 | أحمد النفيس</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/KBEFZ_EA_KA?si=5eqU1yH9R-GNK0vk"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-21">
+            <h2>لماذا نصوم رمضان؟ | بدون ورق 105 | د.مطلق الجاسر</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4nDI1qzd7q0?si=dAuoc8sPFIgneNjt"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-22">
+            <h2>الصبر مفتاح الفرج الشيخ طلال فاخر | بودكاست بشاره مع فهد البشاره</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3yZCL30ZfPo?si=AESs3tGO1zkEtYvZ"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+
+        <section class="page-content" id="lesson-23">
+            <h2>إيه المشكلة في الرياء ؟!</h2>
+            <div class="lesson-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Yazl_GXvSs?si=Hq4IwQZ1oRJJq8i6"
+                    frameborder="0" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- أيقونة العودة إلى الأعلى -->
+    <div id="scroll-to-top" class="scroll-to-top">
+        <span>&#8593;</span> <!-- رمز السهم للأعلى -->
+    </div>
+    <script src="js/podcast.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

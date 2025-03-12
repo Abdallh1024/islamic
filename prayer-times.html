@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مواقيت الصلاة</title>
+    <link rel="stylesheet" href="css/prayer-times.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <div class="navbar">
+            <h1>مواقيت الصلاة</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="quran.html">القرآن الكريم</a></li>
+                    <li><a href="hadith.html">الأحاديث النبوية</a></li>
+                    <li><a href="azkar.html">الاذكار</a></li>
+                    <li><a href="tasbeeh.html">تسبيح</a></li>
+                    <li class="dropdown">
+                        <a href="#no" id="lessons-link">تعليمي</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lessons.html">دروس</a></li>
+                            <li><a href="podcast.html">بودكاست</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="prayer-times.html">مواقيت الصلاه</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="menu-icon" id="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="prayer-times-section">
+            <h2>مواقيت الصلاة اليوم</h2>
+            <div class="location-inputs">
+                <select id="country">
+                    <option value="">اختر الدولة</option>
+                    <!-- الدول العربية سيتم تعبئتها من خلال JavaScript -->
+                </select>
+                <select id="city">
+                    <option value="">اختر المدينة</option>
+                    <!-- المدن سيتم تعبئتها بناءً على الدولة المختارة -->
+                </select>
+                <button id="fetch-prayer-times">عرض المواقيت</button>
+            </div>
+            <div id="prayer-times-container">
+                <!-- مواقيت الصلاة سيتم عرضها هنا -->
+                <p>الرجاء اختيار الدولة والمدينة.</p>
+            </div>
+            <div id="error-message" class="error-message">
+                <!-- رسائل الخطأ ستظهر هنا -->
+            </div>
+        </section>
+    </main>
+    <!-- أيقونة العودة إلى الأعلى -->
+    <div id="scroll-to-top" class="scroll-to-top">
+        <span>&#8593;</span> <!-- رمز السهم للأعلى -->
+            </div>
+    <script src="js/prayer-times.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

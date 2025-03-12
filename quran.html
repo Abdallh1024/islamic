@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرآن الكريم</title>
+    <link rel="stylesheet" href="css/quran.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <div class="navbar">
+            <h1>القرآن الكريم</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="quran.html">القرآن الكريم</a></li>
+                    <li><a href="hadith.html">الأحاديث النبوية</a></li>
+                    <li><a href="azkar.html">الاذكار</a></li>
+                    <li><a href="tasbeeh.html">تسبيح</a></li>
+                    <li class="dropdown">
+                        <a href="#no" id="lessons-link">تعليمي</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lessons.html">دروس</a></li>
+                            <li><a href="podcast.html">بودكاست</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="prayer-times.html">مواقيت الصلاه</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="menu-icon" id="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="quran-section">
+            <h2>تصفح القرآن الكريم</h2>
+            <div id="quran-container">
+                <!-- القرآن سيتم عرضه هنا -->
+            </div>
+            <div id="pagination">
+                <button id="prev-page">السابق</button>
+                <span id="page-number">الصفحة 1</span>
+                <button id="next-page">التالي</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/quran.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

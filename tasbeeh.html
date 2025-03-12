@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التسبيح</title>
+    <link rel="stylesheet" href="css/tasbeeh.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header>
+        <div class="navbar">
+            <h1>التسبيح</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="quran.html">القرآن الكريم</a></li>
+                    <li><a href="hadith.html">الأحاديث النبوية</a></li>
+                    <li><a href="azkar.html">الاذكار</a></li>
+                    <li><a href="tasbeeh.html">تسبيح</a></li>
+                    <li class="dropdown">
+                        <a href="#no" id="lessons-link">تعليمي</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="lessons.html">دروس</a></li>
+                            <li><a href="podcast.html">بودكاست</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="prayer-times.html">مواقيت الصلاه</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                </ul>
+                <div class="menu-icon" id="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="tasbeeh-info">
+        <h2>فضل التسبيح</h2>
+        <p>
+            التسبيح هو ذكر الله تعالى بكلمات مثل "سبحان الله"، وهو من أفضل العبادات التي تقرب العبد من ربه. قال رسول الله صلى الله عليه وسلم: "كلمتان خفيفتان على اللسان، ثقيلتان في الميزان، حبيبتان إلى الرحمن: سبحان الله وبحمده، سبحان الله العظيم."
+        </p>
+        <p>
+            التسبيح يطهر القلب، ويجلب الراحة النفسية، ويزيد في الحسنات. فاحرص على الإكثار من التسبيح في كل وقت، خاصة بعد الصلوات وفي أوقات الفراغ.
+        </p>
+    </section>
+    <main>
+        <section class="tasbeeh-section">
+            <h2>عداد التسبيح</h2>
+            <div id="counter">0</div>
+            <div class="buttons">
+                <button id="count-btn">اضغط للتسبيح</button>
+                <button id="reset-btn">إعادة الضبط</button>
+            </div>
+        </section>
+    </main>
+    <!-- أيقونة العودة إلى الأعلى -->
+    <div id="scroll-to-top" class="scroll-to-top">
+        <span>&#8593;</span> <!-- رمز السهم للأعلى -->
+            </div>
+    <script src="js/tasbeeh.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
